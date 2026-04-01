@@ -1,0 +1,18 @@
+# Paste Instagram post/reel URLs here, one per line.
+# Lines starting with # are ignored.
+#
+# Example:
+# https://www.instagram.com/reel/ABC123/
+# https://www.instagram.com/p/DEF456/
+#
+# The scraper will:
+#   1. Fetch the caption for each URL
+#   2. Check if a known boulder name is mentioned
+#   3. If matched, download the video + save the caption for auditing
+#
+# Run with:
+#   cd src
+#   py -3 -m scraper --url-file ../urls.txt
+#
+# To use your browser's Instagram session (recommended):
+#   py -3 -m scraper --url-file ../urls.txt --cookies-from chrome

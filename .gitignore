@@ -1,2 +1,12 @@
 *.jpg
 *.jpeg
+
+# Environment secrets
+.env
+
+# Browser session data
+.browser_session/
+
+# Data and models
+data/
+models/
